@@ -51,7 +51,7 @@ public final class VolSphere {
                 Math.PI * Math.pow(sphereRadius, cube));
             // Printing the volume.
             System.out.printf(
-                    "The volume of the sphere is: %.3f" + "\n", volume);
+                    "The volume of the sphere is: %.3f" + " cm^3\n", volume);
         }
         // Closing the scanner for input for memory conservation.
         inputReader.close();
